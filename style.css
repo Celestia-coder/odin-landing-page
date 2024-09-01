@@ -9,6 +9,7 @@ body{
     flex-direction: column;
 }
 
+/* HEADER ========================= */
 .header-container{
     background-color: #1f2937;
     color: #f9faf8;
@@ -42,10 +43,11 @@ ul{
     /* border: 3px solid red; */
 }
 
-a, .title-desc{
+a, .title-desc, .description{
     text-decoration: none;
     font-size: 18px;
-    color: #e5e7eb;
+    /* color: #e5e7eb; */
+    color: #aeaeae;
 
     /* border: 3px solid red; */
 }
@@ -82,4 +84,49 @@ a, .title-desc{
     border-radius: 8px;
     padding: 8px 28px;
     margin-top: 15px;
+}
+
+/* CONTENT ========================= */
+.container-1{
+    background-color: #f9faf8;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+
+    /* border: 3px solid red; */
+}
+
+.big-text{
+    font-size: 36px;
+    font-weight: 900;
+    color: #1f2937;
+    margin: 50px 0;
+}
+
+.coffee-list{
+    display: flex;
+    justify-content: center;
+    text-align: center;    
+    gap: 40px;
+    padding-bottom: 80px;
+}
+
+.coffee{
+    width: 200px; 
+}
+
+.coffee-pic{
+    border: 5px solid #3882f6;
+    border-radius: 8px;
+}
+
+.description{
+    color: gray;
+}
+
+.container-2{
+    border: 3px solid red;
+
 }
