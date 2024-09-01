@@ -75,7 +75,7 @@ a, .title-desc, .description{
 
 }
 
-.header-button{
+.sign-up-1{
     background-color: #3882f6;
     color: #e5e7eb;
     font-size: 18px;
@@ -140,4 +140,40 @@ a, .title-desc, .description{
     font-style: normal;
     font-weight: 900;
     text-align: end;
+}
+
+.container-3{
+    background-color: #f9faf8;
+    color: #f9faf8;
+    padding: 80px;
+}
+
+.call-to-action{
+    background-color: #3882f6;
+    margin: auto;
+    width: 65%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 50px 100px;
+    border-radius: 10px;
+}
+
+.call-big{
+    font-weight: bold;
+    font-size: 24px;
+}
+
+.call-small{
+    color: #d5d7db;
+}
+
+.sign-up-2{
+    background-color: #3882f6;
+    color: #e5e7eb;
+    font-size: 18px;
+    font-weight: bold;
+    border: 2px solid #e5e7eb;
+    border-radius: 8px;
+    padding: 8px 28px;
 }
