@@ -91,7 +91,7 @@ a, .title-desc, .description{
     margin: 50px 0;
 }
 
-.coffee-list{
+.info-list{
     display: flex;
     justify-content: center;
     text-align: center;    
@@ -99,11 +99,11 @@ a, .title-desc, .description{
     padding-bottom: 80px;
 }
 
-.coffee{
+.info{
     width: 200px; 
 }
 
-.coffee-pic{
+.info-pic{
     border: 5px solid #3882f6;
     border-radius: 8px;
 }
